@@ -28,3 +28,4 @@ Sortiert nach den vergebenen IDs. Für eine alphabetische Sortierung siehe [das 
 |-------------------  | ----------------------- |                
 |  lehramtstypen.ttl  | [Lehramtstypen](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/anerkennung-der-abschluesse.html) |
 |  bilwiss.ttl        | [Standards für die Lehrerbildung: Bildungswissenschaften](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/lehrerbildung.html) |
+|  digitalCompetencies.ttl        | [Kompetenzen in der digitalen Welt (KMK)](https://www.kmk.org/themen/bildung-in-der-digitalen-welt/strategie-bildung-in-der-digitalen-welt.html) |

@@ -1,0 +1,39 @@
+
+@base <http://w3id.org/comein/vocabs/lehramtstypen/> .
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme;
+    dct:title "Lehramtstypen"@de ;
+    dct:title "Type of teaching posts"@en ;
+    dct:description "Eine Werteliste für Lehramtstypen, für die die Ressource geeignet ist."@de ;
+    dct:created "2021-06-30"^^xsd:date ;
+    dct:modified "2021-06-30"^^xsd:date ;
+    dct:issued "2021-06-30"^^xsd:date ;
+    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+    skos:hasTopConcept <type_1>, <type_2>, <type_3>, <type_4>, <type_5>, <type_6> .
+
+<type_1> a skos:Concept ;
+  skos:prefLabel "Lehramtstyp 1: Lehrämter der Grundschule bzw. Primarstufe"@de ;
+  skos:topConceptOf <> .
+
+<type_2> a skos:Concept ;
+  skos:prefLabel "Lehramtstyp 2: Übergreifende Lehrämter der Primarstufe und aller oder einzelner Schularten der Sekundarstufe I"@de ;
+  skos:topConceptOf <> .
+
+<type_3> a skos:Concept ;
+  skos:prefLabel "Lehramtstyp 3: Lehrämter für alle oder einzelne Schularten der Sekundarstufe I"@de ;
+  skos:topConceptOf <> .
+
+<type_4> a skos:Concept ;
+  skos:prefLabel "Lehramtstyp 4: Lehrämter der Sekundarstufe II [allgemeinbildende Fächer] oder für das Gymnasium"@de ;
+  skos:topConceptOf <> .
+
+<type_5> a skos:Concept ;
+  skos:prefLabel "Lehramtstyp 5: Lehrämter der Sekundarstufe II [berufliche Fächer] oder für die beruflichen Schulen"@de ;
+  skos:topConceptOf <> .
+
+<type_6> a skos:Concept ;
+  skos:prefLabel "Lehramtstyp 6: Sonderpädagogische Lehrämter"@de ;
+  skos:topConceptOf <> .

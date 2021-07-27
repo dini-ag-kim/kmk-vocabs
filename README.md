@@ -18,7 +18,6 @@ In der Entwicklung des Vokabulars nutzen wir die [StöberSpecs](https://w3id.org
 
 ## Mitarbeit und Kontakt
 Mitarbeit und Kontakt über [Issues](https://github.com/dini-ag-kim/kmk-vocabs/issues) die [Mailingliste der OER-Metadatengruppe](https://lists.dnb.de/mailman/listinfo/dini-ag-kim-oer) oder die [Mailingliste der Curricula-Gruppe](https://lists.dnb.de/mailman/listinfo/dini-ag-kim-curricula).
-B).
 
 ## Glossar und Quellen
 

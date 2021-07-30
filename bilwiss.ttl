@@ -1,0 +1,633 @@
+@base <http://w3id.org/comein/vocabs/kmk-standards/bilwiss/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a skos:ConceptScheme ;
+    dct:title "KMK-Standards für die Lehrerbildung: Bildungswissenschaften (vom 16.12.2004 i.d.F. vom 16.05.2019)"@de ;
+    dct:description ""@de ;
+    dct:issued "2020-02-11" ;
+    dct:modified "2020-02-11" ;
+    skos:hasTopConcept <01>, <02>, <03>, <04> .
+
+<01> a skos:Concept ;
+    skos:prefLabel "Unterrichten"@de ;
+    skos:narrower <u01>, <u02>, <u03> ;
+    skos:topConceptOf <> .
+
+<u01> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte planen Unterricht unter Berücksichtigung unterschiedlicher Lernvoraussetzungen und Entwicklungsprozesse fach- und sachgerecht und führen ihn sachlich und fachlich korrekt durch."@de ;
+    skos:broader <01> ;
+    skos:narrower <u0101>, <u0102>, <u0103>, <u0104>, <u0105>, <u0106>, <u0107>, <u0108>, <u0109>, <u0110> ;
+    skos:inScheme <> .
+
+<u0101> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die einschlägigen Erziehungs- und Bildungstheorien, verstehen bildungs- und erziehungstheoretische Ziele sowie die daraus abzuleitenden Standards und reflektieren diese kritisch."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0102> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen allgemeine und fachbezogene Didaktiken und wissen, was bei der Planung von Unterrichtseinheiten auch in leistungsheterogenen Gruppen beachtet werden muss."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0103> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen unterschiedliche Unterrichtsmethoden, Aufgabenformate bzw. Aufgabenformen und wissen, wie man sie anforderungs- und situationsgerecht einsetzt."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0104> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Konzepte der Mediendidaktik sowie Möglichkeiten und Grenzen eines anforderungs- und situationsgerechten Einsatzes von analogen und digitalen Medien in Schule und Unterricht."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0105> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Verfahren für die Beurteilung von Lehrleistung und Unterrichtsqualität."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0106> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen können aus den einschlägigen Erziehungs- und Bildungstheorien Zielperspektiven und Handlungsprinzipien ableiten."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0107> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen verknüpfen fachwissenschaftliche und fachdidaktische Argumente und planen und gestalten Unterricht auch unter Berücksichtigung der Leistungsheterogenität."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0108> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wählen Inhalte, Medien und Methoden, Arbeits- und Kommunikationsformen anhand entsprechender Qualitätskriterien unter Bezug auf Curricula und ggf. individuelle Förderpläne aus."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0109> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen integrieren analoge und digitale Medien didaktisch sinnvoll und reflektieren den eigenen Medieneinsatz."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u0110> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen überprüfen die Qualität des eigenen Lehrens und reflektieren die Passung zu den Lernvoraussetzungen und Lernbedürfnissen der Schülerinnen und Schüler."@de ;
+    skos:broader <u01> ;
+    skos:inScheme <> .
+
+<u02> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte unterstützen durch die Gestaltung von Lernsituationen das Lernen von Schülerinnen und Schülern. Sie motivieren alle Schülerinnen und Schüler und befähigen sie, Zusammenhänge herzustellen und Gelerntes zu nutzen."@de ;
+    skos:broader <01> ;
+    skos:narrower <u0201>, <u0202>, <u0203>, <u0204>, <u0205>, <u0206>, <u0207>, <u0208>, <u0209>, <u0210>, <u0211> ;
+    skos:inScheme <> .
+
+<u0201> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Lerntheorien und Formen des Lernens einschließlich Theorien des Lehrens und Lernens mit digitalen Medien."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0202> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Grundlagen und Ergebnisse der Schul- und Unterrichtsforschung und können diese anwendungsbezogen reflektieren."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0203> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen, wie man Lernende aktiv in den Unterricht einbezieht und Verstehens- und Transferprozesse unterstützt."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0204> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Theorien der Lern- und Leistungsmotivation und Möglichkeiten, wie diese im Unterricht angewendet werden."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0205> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen regen unterschiedliche Formen des Lernens an und unterstützen diese."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0206> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen gestalten Lehr-Lernprozesse unter Berücksichtigung der Erkenntnisse über den Erwerb von Wissen und Fähigkeiten."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0207> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen stärken die Lern- und Leistungsbereitschaft der Schülerinnen und Schülern."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0208> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen führen und begleiten Lerngruppen."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0209> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen reflektieren das wachsende Medienangebot kritisch und wählen daraus angemessen, sozial verantwortlich und rechtssicher aus."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0210> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen gestalten Unterrichtsmaterialien sowie analoge und digitale Medien selbstständig und lernförderlich."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u0211> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen die lerntheoretischen und didaktischen Möglichkeiten digitaler Medien für schulische Lehr- und Lernprozesse, insbesondere für die individuelle, auch sonderpädagogische, Förderung von Einzelnen oder Gruppen."@de ;
+    skos:broader <u02> ;
+    skos:inScheme <> .
+
+<u03> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte fördern die Fähigkeiten der Schülerinnen und Schüler zum selbstbestimmten Lernen und Arbeiten."@de ;
+    skos:broader <01> ;
+    skos:narrower <u0301>, <u0302>, <u0303>, <u0304>, <u0305>, <u0306>, <u0307> ;
+    skos:inScheme <> .
+
+<u0301> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Lern- und Selbstmotivationsstrategien, die sich positiv auf Lernerfolg und Arbeitsergebnisse auswirken."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<u0302> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Methoden der Förderung selbstbestimmten, eigenverantwortlichen und kooperativen Lernens und Arbeitens."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<u0303> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen, wie sie weiterführendes Interesse und Grundlagen des lebenslangen Lernens im Unterricht entwickeln."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<u0304> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen vermitteln und fördern Lern- und Arbeitsstrategien."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<u0305> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen vermitteln den Schülerinnen und Schülern Methoden des selbstbestimmten, eigenverantwortlichen und kooperativen Lernens und Arbeitens."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<u0306> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Potentiale und Bedingungen des Einsatzes digitaler Medien für das selbstbestimmte Lernen."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<u0307> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen befähigen die Schülerinnen und Schüler, bewusst und überlegt mit Medien und eigenen Daten in digitalen Räumen umzugehen und die Folgen des eigenen Handelns zu reflektieren."@de ;
+    skos:broader <u03> ;
+    skos:inScheme <> .
+
+<02> a skos:Concept ;
+    skos:prefLabel "Erziehen"@de ;
+    skos:narrower <e01>, <e02>, <e03> ;
+    skos:topConceptOf <> .
+
+<e01> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte kennen die sozialen, kulturellen und technologischen Lebensbedingungen, etwaige Benachteiligungen, Beeinträchtigungen und Barrieren von und für Schülerinnen und Schüler(n) und nehmen im Rahmen der Schule Einfluss auf deren individuelle Entwicklung."@de ;
+    skos:broader <01> ;
+    skos:narrower <e0101>, <e0102>, <e0103>, <e0104>, <e0105>, <e0106>, <e0107>, <e0108>, <e0109> ;
+    skos:inScheme <> .
+
+<e0101> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen pädagogische, soziologische und psychologische Theorien der Entwicklung und der Sozialisation von Kindern und Jugendlichen."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0102> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen etwaige Benachteiligungen von Schülerinnen und Schülern beim Lernprozess und Möglichkeiten der pädagogischen Hilfen und Präventivmaßnahmen."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0103> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen interkulturelle Dimensionen bei der Gestaltung von Bildungs- und Erziehungsprozessen."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0104> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die Bedeutung geschlechtsspezifischer Einflüsse auf Bildungs- und Erziehungsprozesse."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0105> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen um die Bedeutung von Medien und Digitalisierung und kennen Konzepte der Medienbildung und informatischen Bildung zur Medienkompetenzförderung."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0106> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen erkennen Benachteiligungen, Beeinträchtigungen sowie Barrieren, realisieren pädagogische Unterstützung und Präventionsmaßnahmen. Sie nutzen hierbei die Möglichkeiten der Kooperation mit anderen Professionen und Einrichtungen."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0107> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen unterstützen Schülerinnen und Schüler individuell und arbeiten mit Eltern vertrauensvoll zusammen."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0108> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen beachten die soziale und kulturelle Diversität in der jeweiligen Lerngruppe."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e0109> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen entwickeln und erproben Konzepte, mit denen Schülerinnen und Schüler zur Gestaltung und kritischen Reflexion der digitalen Welt befähigt werden."@de ;
+    skos:broader <e01> ;
+    skos:inScheme <> .
+
+<e02> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte vermitteln Werte und Normen, eine Haltung der Wertschätzung und Anerkennung von Diversität und unterstützen selbstbestimmtes und reflektiertes Urteilen und Handeln von Schülerinnen und Schülern."@de ;
+    skos:broader <02> ;
+    skos:narrower <e0202>, <e0202>, <e0203>, <e0204>, <e0205>, <e0206>, <e0207>, <e0208>, <e0209> ;
+    skos:inScheme <> .
+
+<e0201> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen und reflektieren demokratische Werte und Normen sowie ihre Vermittlung."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0202> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen, wie wesentlich Anerkennung von Diversität für das Gelingen von Lern- und Identitätsbildungsprozessen ist."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0203> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen um die Bedeutung der Medien für Werthaltungen, Meinungsbildung und Entscheidungsprozesse."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0204> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen, wie wertbewusste Haltungen sowie selbstbestimmtes Urteilen und Handeln von Schülerinnen und Schülern gefördert werden."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0205> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen, wie Schülerinnen und Schüler im Umgang mit persönlichen Krisen- und Entscheidungssituationen unterstützt werden."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0206> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen reflektieren Werte und Werthaltungen und handeln entsprechend."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0207> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen analysieren und bewerten Medien mit Schülerinnen und Schülern und regen zur Reflexion des eigenen Medienhandelns an."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0208> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen üben mit den Schülerinnen und Schülern eigenverantwortliches Urteilen und Handeln ein."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e0209> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen setzen Formen des konstruktiven Umgangs mit Normkonflikten ein."@de ;
+    skos:broader <e02> ;
+    skos:inScheme <> .
+
+<e03> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte finden alters- und entwicklungspsychologisch adäquate Lösungsansätze für Schwierigkeiten und Konflikte in Schule und Unterricht und tragen zu einem wertschätzenden Umgang bei."@de ;
+    skos:broader <02> ;
+    skos:narrower <e0302>, <e0302>, <e0303>, <e0304>, <e0305>, <e0306>, <e0307>, <e0308>, <e0309> ;
+    skos:inScheme <> .
+
+<e0301> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen verfügen über Kenntnisse zu Kommunikation und Interaktion (unter besonderer Berücksichtigung der Lehrer-Schüler-Interaktion)."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0302> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Regeln der Gesprächsführung sowie Grundsätze des Umgangs miteinander, die in Unterricht, Schule und Elternarbeit bedeutsam sind."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0303> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Risiken sowie Potenziale im Kindes- und Jugendalter sowie Präventions-, Interventions- und Unterstützungsmöglichkeiten."@de ;
+    skos:notation "6.3" ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0304> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen analysieren Konflikte und kennen Methoden der konstruktiven Konfliktbearbeitung sowie des Umgangs mit Gewalt und Diskriminierung."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0305> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Chancen und Risiken der Mediennutzung in Bezug auf Emotionen, Verhalten und Einstellungen sowie Konzepte des konstruktiven Umgangs damit."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0306> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen gestalten soziale Beziehungen und soziale Lernprozesse in Unterricht und Schule."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0307> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen erarbeiten mit den Schülerinnen und Schülern Regeln des wertschätzenden Umgangs miteinander und setzen diese um."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0308> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wenden im konkreten Fall Strategien und Handlungsformen der Konfliktprävention und -lösung an."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<e0309> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen gestalten und vermitteln Lösungsansätze zum Umgang mit Chancen und Risiken der Mediennutzung."@de ;
+    skos:broader <e03> ;
+    skos:inScheme <> .
+
+<03> a skos:Concept ;
+    skos:prefLabel "Beurteilen"@de ;
+    skos:narrower <b01>, <b02> ;
+    skos:topConceptOf <> .
+
+<b01> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte diagnostizieren Lernvoraussetzungen und Lernprozesse von Schülerinnen und Schülern; sie fördern Schülerinnen und Schüler gezielt und beraten Lernende und deren Eltern."@de ;
+    skos:broader <03> ;
+    skos:narrower <b0101>, <b0102>, <b0103>, <b0104>, <b0105>, <b0106>, <b0107>, <b0108>, <b0109>, <b0110>, <b0111>, <b0112>, <b0113>, <b0114> ;
+    skos:inScheme <> .
+
+<b0101> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Begriff und Merkmale von Heterogenität bzw. Diversität."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0102> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen um die Vielfalt von Einflussfaktoren auf Lernprozesse und deren Auswirkungen auf Lernleistungen."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0103> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wissen, wie unterschiedliche Lernvoraussetzungen Lehren und Lernen beeinflussen und wie diese im Unterricht in heterogenen Lerngruppen positiv nutzbar gemacht werden können."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0104> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Formen von Hoch- und Sonderbegabung."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0105> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die Grundlagen und Formen der Lernprozessdiagnostik einschließlich technischer Realisierungen, deren Möglichkeiten und Grenzen sowie datenschutzrechtlicher Bestimmungen."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0106> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Prinzipien und Ansätze der Beratung von Schülerinnen und Schülern sowie Eltern."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0107> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die für Schule relevanten unterschiedlichen Kooperationspartner und wissen um die differenten Perspektiven bei der Kooperation mit anderen Professionen und Einrichtungen."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0108> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen erkennen Entwicklungsstände, Lernpotenziale, Lernhindernisse und Lernfortschritte."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0109> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen erkennen individuelle Lernausgangslagen und setzen spezielle Fördermöglichkeiten ein."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0110> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen erkennen Begabungen und kennen Möglichkeiten der Begabungsförderung."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0111> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen stimmen Lernmöglichkeiten und Lernanforderungen aufeinander ab."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0112> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen setzen unterschiedliche Beratungsformen situationsgerecht ein und unterscheiden Beratungsfunktion und Beurteilungsfunktion."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0113> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kooperieren bei der Diagnostik, Förderung und Beratung inner- und außerschulisch mit Kolleginnen und Kollegen sowie mit anderen Professionen und Einrichtungen."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b0114> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen digitale Lernprozessdiagnostik im Wissen um ihre Möglichkeiten und Grenzen, auch zur Reflexion über die eigene Unterrichtstätigkeit."@de ;
+    skos:broader <b01> ;
+    skos:inScheme <> .
+
+<b02> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte erfassen die Leistungsentwicklung von Schülerinnen und Schülern und beurteilen Lernprozesse und Leistungen auf der Grundlage transparenter Beurteilungsmaßstäbe."@de ;
+    skos:broader <03> ;
+    skos:narrower <b0201>, <b0202>, <b0203>, <b0204>, <b0205>, <b0206>, <b0207>, <b0208>, <b0209>, <b0210> ;
+    skos:inScheme <> .
+
+<b0201> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen unterschiedliche Formen und Wirkungen der Leistungsbeurteilung und -rückmeldung, ihre Funktionen und ihre Vor- und Nachteile."@de ;
+    skos:notation "8.1" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0202> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen verschiedene Bezugssysteme der Leistungsbeurteilung und wägen sie gegeneinander ab."@de ;
+    skos:notation "8.2" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0203> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen das Spannungsverhältnis von lernförderlicher Rückmeldung und gesellschaftlicher Funktionen von Leistungsbeurteilungen."@de ;
+    skos:notation "8.3" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0204> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Potenziale und Grenzen technologiebasierter Aufgaben- und Prüfungsformate."@de ;
+    skos:notation "8.4" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0205> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen konzipieren Aufgabenstellungen kriteriengeleitet und formulieren sie adressatengerecht."@de ;
+    skos:notation "8.5" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0206> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wenden Bewertungsmodelle und Bewertungsmaßstäbe fach- und situationsgerecht an."@de ;
+    skos:notation "8.6" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0207> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen verständigen sich auf Beurteilungsgrundsätze mit Kolleginnen und Kollegen."@de ;
+    skos:notation "8.7" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0208> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen begründen Bewertungen und Beurteilungen adressatengerecht und zeigen Perspektiven für das weitere Lernen auf."@de ;
+    skos:notation "8.8" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0209> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen reflektiert digitale Möglichkeiten zur Unterstützung der Leistungserfassung, -feststellung und -bewertung."@de ;
+    skos:notation "8.9" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<b0210> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen Leistungsüberprüfungen als konstruktive Rückmeldung über die eigene Unterrichtstätigkeit."@de ;
+    skos:notation "8.10" ;
+    skos:broader <b02> ;
+    skos:inScheme <> .
+
+<04> a skos:Concept ;
+    skos:prefLabel "Innovieren"@de ;
+    skos:narrower <i01>, <i02>, <i03> ;
+    skos:topConceptOf <> .
+
+<i01> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte sind sich der besonderen Anforderungen des Lehrerberufs bewusst und beziehen gesellschaftliche, kulturelle und technologische Entwicklungen in ihr Handeln ein. Sie verstehen ihren Beruf als ein öffentliches Amt mit besonderer Verantwortung und Verpflichtung."@de ;
+    skos:broader <04> ;
+    skos:narrower <i0101>, <i0102>, <i0103>, <i0104>, <i0105>, <i0106> ;
+    skos:inScheme <> .
+
+<i0101> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die Grundlagen und Strukturen des Bildungs- und Schulsystems sowie von Schule als Organisation und reflektieren gesellschaftliche, kulturelle und technologische Veränderungsprozesse auch in ihren Auswirkungen auf Schule."@de ;
+    skos:broader <i01> ;
+    skos:inScheme <> .
+
+<i0102> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die rechtlichen Rahmenbedingungen ihrer Tätigkeit (insbesondere Grundgesetz, Schulgesetze, Menschenrechtskonventionen, schulrelevantes Datenschutz- sowie Medienrecht) und wenden diese reflektiert an."@de ;
+    skos:broader <i01> ;
+    skos:inScheme <> .
+
+<i0103> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen reflektieren ihre persönlichen berufsbezogenen Wertvorstellungen und Einstellungen."@de ;
+    skos:broader <i01> ;
+    skos:inScheme <> .
+
+<i0104> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die Herausforderungen an den Lehrerberuf, die damit einhergehende Verantwortung sowie wesentliche Ergebnisse der Belastungs- und Stressforschung."@de ;
+    skos:broader <i01> ;
+    skos:inScheme <> .
+
+<i0105> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen lernen, mit Herausforderungen, Veränderungen und Belastungen umzugehen."@de ;
+    skos:broader <i01> ;
+    skos:inScheme <> .
+
+<i0106> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen setzen Arbeitszeit und Arbeitsmittel zweckdienlich und ökonomisch ein und nutzen digitale Möglichkeiten zur Unterstützung der Organisation von unterrichts- und schulbezogenen Tätigkeiten unter Beachtung der datenschutzrechtlichen Anforderungen."@de ;
+    skos:broader <i01> ;
+    skos:inScheme <> .
+
+<i02> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte verstehen ihren Beruf als ständige Lernaufgabe und entwickeln ihre Kompetenzen weiter."@de ;
+    skos:broader <04> ;
+    skos:narrower <i0201>, <i0202>, <i0203>, <i0204>, <i0205>, <i0206>, <i0207>, <i0208>, <i0209>, <i0210>, <i0211>, <i0212>, <i0213>, <i0214>  ;
+    skos:inScheme <> .
+
+<i0201> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Methoden der Selbst- und Fremdevaluation im Kontext der Entwicklung und Sicherung von Unterrichts- und Schulqualität."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0202> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen rezipieren und bewerten Ergebnisse der Bildungs- und Schulforschung."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0203> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen die organisatorischen Bedingungen an Schulen sowie Kooperationsstrukturen im schulischen und außerschulischen Bereich."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0204> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen reflektieren die professionellen Anforderungen des Umgangs mit Diversität und Heterogenität."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0205> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen digitale Technologien für die Zusammenarbeit und eigene Professionalisierung einschließlich ihrer Vor- und Nachteile."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0206> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Grundprinzipien digitaler Technologien und rechtliche Bestimmungen, die die genutzten Werkzeuge, Unterrichts- und Organisationsmittel betreffen."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0207> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen reflektieren die eigenen beruflichen Haltungen, Erfahrungen und Kompetenzen sowie deren Entwicklung und können hieraus Konsequenzen ziehen."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0208> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen Erkenntnisse der Bildungs- und Schulforschung für die eigene Tätigkeit."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0209> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen dokumentieren für sich und andere die eigene Arbeit und ihre Ergebnisse."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0210> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen geben Rückmeldungen und nutzen die Rückmeldungen anderer dazu, ihre pädagogische Arbeit zu optimieren."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0211> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nehmen Mitwirkungsmöglichkeiten wahr."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0212> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen und nutzen Unterstützungsmöglichkeiten für Lehrkräfte."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0213> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen individuelle und kooperative Fort- und Weiterbildungsangebote."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i0214> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen die Möglichkeiten digitaler Technologien zur Zusammenarbeit und Professionalisierung."@de ;
+    skos:broader <i02> ;
+    skos:inScheme <> .
+
+<i03> a skos:Concept ;
+    skos:prefLabel "Lehrkräfte beteiligen sich an der Schul- und Unterrichtsentwicklung."@de ;
+    skos:broader <04> ;
+    skos:narrower <i0301>, <i0302>, <i0303>, <i0304>, <i0305>, <i0306> ;
+    skos:inScheme <> .
+
+<i0301> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen und reflektieren den spezifischen Bildungsauftrag verschiedener Schularten und Bildungsgänge."@de ;
+    skos:broader <i03> ;
+    skos:inScheme <> .
+
+<i0302> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen kennen Ziele, Methoden, Rahmenbedingungen und Prozessabläufe der Schulund Unterrichtsentwicklung und reflektieren die Herausforderungen auch unter dem Aspekt inklusiver Schulentwicklung."@de ;
+    skos:broader <i03> ;
+    skos:inScheme <> .
+
+<i0303> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen wenden Ergebnisse der Schul-, Unterrichts- und Bildungsforschung auf die Gestaltung von Schul- und Unterrichtsentwicklung an."@de ;
+    skos:broader <i03> ;
+    skos:inScheme <> .
+
+<i0304> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen nutzen Verfahren und Instrumente der internen Evaluation zur Qualitätsentwicklung von Unterricht und Schule."@de ;
+    skos:broader <i03> ;
+    skos:inScheme <> .
+
+<i0305> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen planen schulische Projekte und Vorhaben kooperativ und setzen sie um."@de ;
+    skos:broader <i03> ;
+    skos:inScheme <> .
+
+<i0306> a skos:Concept ;
+    skos:prefLabel "Die Absolventinnen und Absolventen können schulische Innovationsprozesse mitgestalten und erproben reflektiert neue Konzepte, Anwendungen und Technologien."@de ;
+    skos:broader <i03> ;
+    skos:inScheme <> .

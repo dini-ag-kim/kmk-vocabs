@@ -21,8 +21,6 @@ Mitarbeit und Kontakt über [Issues](https://github.com/dini-ag-kim/kmk-vocabs/i
 
 ## Glossar und Quellen
 
-Sortiert nach den vergebenen IDs. Für eine alphabetische Sortierung siehe [das veröffentlichte Vokabular](https://skohub.io/dini-ag-kim/schulfaecher/heads/main/w3id.org/kim/schulfaecher/).
-
 | Datei               | Vokabularherkunft   |
 |-------------------  | ----------------------- |                
 |  lehramtstypen.ttl  | [Lehramtstypen](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/anerkennung-der-abschluesse.html) |

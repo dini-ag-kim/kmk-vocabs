@@ -1,12 +1,11 @@
 
-@base <http://w3id.org/kmk-vocabs/lehramtstypen/> .
+@base <http://w3id.org/kim/kmk-vocabs/lehramtstypen/> .
 @prefix dct: <http://purl.org/dc/terms/>.
 @prefix skos: <http://www.w3.org/2004/02/skos/core#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <> a skos:ConceptScheme;
     dct:title "Lehramtstypen"@de ;
-    dct:title "Type of teaching posts"@en ;
     dct:description "Eine Werteliste für Lehramtstypen, für die die Ressource geeignet ist."@de ;
     dct:created "2021-06-30"^^xsd:date ;
     dct:modified "2021-06-30"^^xsd:date ;

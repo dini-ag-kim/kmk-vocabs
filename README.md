@@ -21,8 +21,8 @@ Mitarbeit und Kontakt über [Issues](https://github.com/dini-ag-kim/kmk-vocabs/i
 
 ## Glossar und Quellen
 
-| Datei               | Vokabularherkunft   |
-|-------------------  | ----------------------- |                
-|  lehramtstypen.ttl  | [Lehramtstypen](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/anerkennung-der-abschluesse.html) |
-|  bilwiss.ttl        | [Standards für die Lehrerbildung: Bildungswissenschaften](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/lehrerbildung.html) |
-|  digitalCompetencies.ttl        | [Kompetenzen in der digitalen Welt (KMK)](https://www.kmk.org/themen/bildung-in-der-digitalen-welt/strategie-bildung-in-der-digitalen-welt.html) |
+| Datei               | Vokabularherkunft   | W3ID |
+|-------------------  | ----------------------- |   --------------|             
+|  [lehramtstypen.ttl](lehramtstypen.ttl) | [Lehramtstypen](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/anerkennung-der-abschluesse.html) | https://w3id.org/kim/kmk-vocabs/lehramtstypen/ |
+|  [bildungswissenschaften.ttl](bildungswissenschaften.ttl) | [Standards für die Lehrerbildung: Bildungswissenschaften](https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/lehrerbildung.html) | https://w3id.org/kim/kmk-vocabs/bildungswissenschaften/ |
+|  [digitalisierungsbezogene-kompetenzen.ttl](digitalisierungsbezogene-kompetenzen.ttl) | [Kompetenzen in der digitalen Welt (KMK)](https://www.kmk.org/themen/bildung-in-der-digitalen-welt/strategie-bildung-in-der-digitalen-welt.html) | https://w3id.org/kim/kmk-vocabs/digitalisierungsbezogene-kompetenzen/ |

@@ -10,7 +10,6 @@
     dct:created "2021-06-30"^^xsd:date ;
     dct:modified "2021-06-30"^^xsd:date ;
     dct:issued "2021-06-30"^^xsd:date ;
-    dct:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     skos:hasTopConcept <type_1>, <type_2>, <type_3>, <type_4>, <type_5>, <type_6> .
 
 <type_1> a skos:Concept ;

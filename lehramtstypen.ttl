@@ -10,6 +10,7 @@
     dct:created "2021-06-30"^^xsd:date ;
     dct:modified "2021-06-30"^^xsd:date ;
     dct:issued "2021-06-30"^^xsd:date ;
+    dct:source "https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/anerkennung-der-abschluesse.html" ;
     skos:hasTopConcept <type_1>, <type_2>, <type_3>, <type_4>, <type_5>, <type_6> .
 
 <type_1> a skos:Concept ;

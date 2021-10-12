@@ -8,6 +8,7 @@
     dct:description ""@de ;
     dct:issued "2020-02-11" ;
     dct:modified "2020-02-11" ;
+    dct:source "https://www.kmk.org/themen/allgemeinbildende-schulen/lehrkraefte/lehrerbildung.html" ;
     skos:hasTopConcept <01>, <02>, <03>, <04> .
 
 <01> a skos:Concept ;

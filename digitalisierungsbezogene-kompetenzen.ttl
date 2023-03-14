@@ -147,7 +147,7 @@
     .
 
 <108097E8-A762-477A-8389-5FC1908E7EAB> a skos:Concept ;
-    skos:prefLabel "2.2. Zusammenarbeiten"@de ;
+    skos:prefLabel "2.3. Zusammenarbeiten"@de ;
     skos:broader <5490EF24-A2EE-4A93-8F06-D4E535A5667D> ;
     skos:narrower <632CFA45-8F42-4561-BE41-A29FE8217293>,
         <C36FCDCD-D849-40FE-8A41-FB4CC54CADB6> ;
